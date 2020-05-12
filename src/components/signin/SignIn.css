@@ -1,0 +1,16 @@
+.center-everything{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
